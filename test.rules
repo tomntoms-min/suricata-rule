@@ -1,5 +1,9 @@
 # HTTP Site (1개)
 alert tcp any any -> any 80 (msg:"example.com access"; flow:to_server,established; content:"Host|3A| example.com"; http_header; nocase; sid:30001; rev:4;)
+alert tcp any any -> any 80 (msg:"cnn.com access"; flow:to_server,established; content:"Host|3A| cnn.com"; http_header; nocase; sid:30021; rev:1;)
+alert tcp any any -> any 80 (msg:"bbc.com access"; flow:to_server,established; content:"Host|3A| bbc.com"; http_header; nocase; sid:30022; rev:1;)
+alert tcp any any -> any 80 (msg:"forbes.com access"; flow:to_server,established; content:"Host|3A| forbes.com"; http_header; nocase; sid:30023; rev:1;)
+alert tcp any any -> any 80 (msg:"washingtonpost.com access"; flow:to_server,established; content:"Host|3A| washingtonpost.com"; http_header; nocase; sid:30024; rev:1;)
 
 # HTTPS Sites (19개)
 alert tls any any -> any 443 (msg:"google.com HTTPS access"; flow:to_server,established; tls_sni; content:"google.com"; nocase; sid:30002; rev:3;)
