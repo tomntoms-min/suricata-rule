@@ -1,22 +1,22 @@
-# HTTP Sites
-alert tcp any any -> any 80 (msg:"weather.com access"; flow:to_server,established; content:"Host|3A| weather.com"; http_header; nocase; sid:30001; rev:2;)
-alert tcp any any -> any 80 (msg:"espn.com access"; flow:to_server,established; content:"Host|3A| espn.com"; http_header; nocase; sid:30002; rev:2;)
-alert tcp any any -> any 80 (msg:"huffpost.com access"; flow:to_server,established; content:"Host|3A| huffpost.com"; http_header; nocase; sid:30003; rev:2;)
-alert tcp any any -> any 80 (msg:"reuters.com access"; flow:to_server,established; content:"Host|3A| reuters.com"; http_header; nocase; sid:30004; rev:2;)
-alert tcp any any -> any 80 (msg:"ign.com access"; flow:to_server,established; content:"Host|3A| ign.com"; http_header; nocase; sid:30005; rev:2;)
+# HTTP Site (1개)
+alert tcp any any -> any 80 (msg:"example.com access"; flow:to_server,established; content:"Host|3A| example.com"; http_header; nocase; sid:30001; rev:4;)
 
-# HTTPS Sites (using tls_sni)
+# HTTPS Sites (19개)
+alert tls any any -> any 443 (msg:"google.com HTTPS access"; flow:to_server,established; tls_sni; content:"google.com"; nocase; sid:30002; rev:3;) # 새롭게 추가
+alert tls any any -> any 443 (msg:"youtube.com HTTPS access"; flow:to_server,established; tls_sni; content:"youtube.com"; nocase; sid:30003; rev:3;) # 새롭게 추가
+alert tls any any -> any 443 (msg:"facebook.com HTTPS access"; flow:to_server,established; tls_sni; content:"facebook.com"; nocase; sid:30004; rev:3;) # 새롭게 추가
+alert tls any any -> any 443 (msg:"twitter.com HTTPS access"; flow:to_server,established; tls_sni; content:"twitter.com"; nocase; sid:30005; rev:3;) # 새롭게 추가
 alert tls any any -> any 443 (msg:"naver.com HTTPS access"; flow:to_server,established; tls_sni; content:"naver.com"; nocase; sid:30006; rev:1;)
 alert tls any any -> any 443 (msg:"daum.net HTTPS access"; flow:to_server,established; tls_sni; content:"daum.net"; nocase; sid:30007; rev:1;)
-alert tls any any -> any 443 (msg:"maple.com HTTPS access"; flow:to_server,established; tls_sni; content:"maple.com"; nocase; sid:30008; rev:1;)
+alert tls any any -> any 443 (msg:"amazon.com HTTPS access"; flow:to_server,established; tls_sni; content:"amazon.com"; nocase; sid:30008; rev:3;) # 기존 30008(google.com) 대신 교체
 alert tls any any -> any 443 (msg:"apple.com HTTPS access"; flow:to_server,established; tls_sni; content:"apple.com"; nocase; sid:30009; rev:1;)
 alert tls any any -> any 443 (msg:"twitch.tv HTTPS access"; flow:to_server,established; tls_sni; content:"twitch.tv"; nocase; sid:30010; rev:1;)
 alert tls any any -> any 443 (msg:"stackoverflow.com HTTPS access"; flow:to_server,established; tls_sni; content:"stackoverflow.com"; nocase; sid:30011; rev:1;)
 alert tls any any -> any 443 (msg:"github.com HTTPS access"; flow:to_server,established; tls_sni; content:"github.com"; nocase; sid:30012; rev:1;)
 alert tls any any -> any 443 (msg:"gitlab.com HTTPS access"; flow:to_server,established; tls_sni; content:"gitlab.com"; nocase; sid:30013; rev:1;)
 alert tls any any -> any 443 (msg:"dropbox.com HTTPS access"; flow:to_server,established; tls_sni; content:"dropbox.com"; nocase; sid:30014; rev:1;)
-alert tls any any -> any 443 (msg:"slack.com HTTPS access"; flow:to_server,established; tls_sni; content:"slack.com"; nocase; sid:30015; rev:1;)
-alert tls any any -> any 443 (msg:"medium.com HTTPS access"; flow:to_server,established; tls_sni; content:"medium.com"; nocase; sid:30016; rev:1;)
+alert tls any any -> any 443 (msg:"microsoft.com HTTPS access"; flow:to_server,established; tls_sni; content:"microsoft.com"; nocase; sid:30015; rev:3;) # 기존 30015(youtube.com) 대신 교체
+alert tls any any -> any 443 (msg:"reddit.com HTTPS access"; flow:to_server,established; tls_sni; content:"reddit.com"; nocase; sid:30016; rev:3;) # 기존 30016(wikipedia.org) 대신 교체
 alert tls any any -> any 443 (msg:"notion.so HTTPS access"; flow:to_server,established; tls_sni; content:"notion.so"; nocase; sid:30017; rev:1;)
 alert tls any any -> any 443 (msg:"trello.com HTTPS access"; flow:to_server,established; tls_sni; content:"trello.com"; nocase; sid:30018; rev:1;)
 alert tls any any -> any 443 (msg:"zoom.us HTTPS access"; flow:to_server,established; tls_sni; content:"zoom.us"; nocase; sid:30019; rev:1;)
