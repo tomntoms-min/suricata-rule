@@ -1,0 +1,24 @@
+06/18/2025-12:24:54.959057  [**] [1:30006:1] naver.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:41970 -> 23.35.220.251:443
+06/18/2025-12:26:59.674110  [**] [1:30007:1] daum.net HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:51130 -> 121.53.105.193:443
+06/18/2025-12:27:42.354069  [**] [1:30009:1] apple.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:60064 -> 23.49.205.28:443
+06/18/2025-12:28:40.443670  [**] [1:30019:1] zoom.us HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:39516 -> 170.114.52.2:443
+06/18/2025-12:28:44.672357  [**] [1:30020:1] canva.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:59400 -> 104.16.102.112:443
+06/18/2025-12:28:52.279877  [**] [1:30017:1] notion.so HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:40696 -> 208.103.161.2:443
+06/18/2025-12:28:59.641757  [**] [1:30018:1] trello.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58882 -> 3.168.178.24:443
+06/18/2025-12:29:20.316655  [**] [1:30014:1] dropbox.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:43406 -> 162.125.84.18:443
+06/18/2025-12:29:25.942428  [**] [1:30013:1] gitlab.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:36584 -> 172.65.251.78:443
+06/18/2025-12:29:31.232506  [**] [1:30012:1] github.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:55022 -> 20.200.245.247:443
+06/18/2025-12:29:48.238067  [**] [1:30011:1] stackoverflow.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:41778 -> 104.18.32.7:443
+06/18/2025-12:29:53.185732  [**] [1:30010:1] twitch.tv HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:47882 -> 151.101.66.214:443
+06/18/2025-12:38:28.272018  [**] [1:30002:3] google.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:60992 -> 142.250.105.104:443
+06/18/2025-12:38:32.662762  [**] [1:30003:3] youtube.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:39164 -> 142.251.15.91:443
+06/18/2025-12:38:36.655499  [**] [1:30004:3] facebook.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:34380 -> 163.70.159.35:443
+06/18/2025-12:38:42.142646  [**] [1:30005:3] twitter.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:33644 -> 172.66.0.227:443
+06/18/2025-12:38:44.922176  [**] [1:30005:3] twitter.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:33658 -> 172.66.0.227:443
+06/18/2025-12:39:14.577238  [**] [1:30006:1] naver.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:60824 -> 23.35.220.251:443
+06/18/2025-12:39:23.767147  [**] [1:30007:1] daum.net HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:59870 -> 121.53.105.193:443
+06/18/2025-12:39:28.959050  [**] [1:30008:3] amazon.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:43846 -> 23.35.222.94:443
+06/18/2025-12:39:44.689858  [**] [1:30015:3] microsoft.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:42452 -> 23.52.33.58:443
+06/18/2025-12:39:49.616382  [**] [1:30016:3] reddit.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58600 -> 151.101.1.140:443
+06/18/2025-12:39:54.042381  [**] [1:30018:1] trello.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58076 -> 13.225.117.33:443
+06/18/2025-12:40:16.093024  [**] [1:30001:4] example.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:46990 -> 23.192.228.80:80
