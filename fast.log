@@ -22,3 +22,8 @@
 06/18/2025-12:39:49.616382  [**] [1:30016:3] reddit.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58600 -> 151.101.1.140:443
 06/18/2025-12:39:54.042381  [**] [1:30018:1] trello.com HTTPS access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58076 -> 13.225.117.33:443
 06/18/2025-12:40:16.093024  [**] [1:30001:4] example.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:46990 -> 23.192.228.80:80
+06/18/2025-14:16:41.095855  [**] [1:30021:1] cnn.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:35154 -> 151.101.3.5:80
+06/18/2025-14:17:09.360034  [**] [1:30022:1] bbc.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:58960 -> 151.101.64.81:80
+06/18/2025-14:17:26.949976  [**] [1:30023:1] forbes.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:38008 -> 151.101.66.49:80
+06/18/2025-14:17:38.867411  [**] [1:30024:1] washingtonpost.com access [**] [Classification: (null)] [Priority: 3] {TCP} 172.21.209.239:39624 -> 18.244.60.50:80
+
