@@ -1,9 +1,9 @@
 # HTTP Sites
-alert tcp any any -> any 80 (msg:"weather.com access"; flow:to_server,established; http_host; content:"weather.com"; nocase; sid:30001; rev:1;)
-alert tcp any any -> any 80 (msg:"espn.com access"; flow:to_server,established; http_host; content:"espn.com"; nocase; sid:30002; rev:1;)
-alert tcp any any -> any 80 (msg:"huffpost.com access"; flow:to_server,established; http_host; content:"huffpost.com"; nocase; sid:30003; rev:1;)
-alert tcp any any -> any 80 (msg:"reuters.com access"; flow:to_server,established; http_host; content:"reuters.com"; nocase; sid:30004; rev:1;)
-alert tcp any any -> any 80 (msg:"ign.com access"; flow:to_server,established; http_host; content:"ign.com"; nocase; sid:30005; rev:1;)
+alert tcp any any -> any 80 (msg:"weather.com access"; flow:to_server,established; http.host; content:"weather.com"; nocase; sid:30001; rev:1;)
+alert tcp any any -> any 80 (msg:"espn.com access"; flow:to_server,established; http.host; content:"espn.com"; nocase; sid:30002; rev:1;)
+alert tcp any any -> any 80 (msg:"huffpost.com access"; flow:to_server,established; http.host; content:"huffpost.com"; nocase; sid:30003; rev:1;)
+alert tcp any any -> any 80 (msg:"reuters.com access"; flow:to_server,established; http.host; content:"reuters.com"; nocase; sid:30004; rev:1;)
+alert tcp any any -> any 80 (msg:"ign.com access"; flow:to_server,established; http.host; content:"ign.com"; nocase; sid:30005; rev:1;)
 
 # HTTPS Sites (using tls_sni)
 alert tls any any -> any 443 (msg:"naver.com HTTPS access"; flow:to_server,established; tls_sni; content:"naver.com"; nocase; sid:30006; rev:1;)
